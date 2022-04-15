@@ -1,0 +1,1 @@
+This project was bootstraped using vite. It is a simple website I made following a fireship tutorial on youtube.
