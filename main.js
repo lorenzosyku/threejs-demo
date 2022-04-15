@@ -56,8 +56,10 @@ function addStar(){
 
 }
 
-Array(200).fill().forEach(addStar)
+Array(200).fill().forEach(addStar);
 
+const spaceTexture = new THREE.TextureLoader().load('nasa.jpg');
+scene.background = spaceTexture
 
 
 function animate() {
